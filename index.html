@@ -6,22 +6,25 @@
 <br>
 <br>
 <br>
-
+<br>
+<br>
+<br>
 <center>
 <script language="JavaScript">
 
 function random_imglink(){
-var myimages=new Array()
+var drinks=new Array()
 //specify random images below. You can have as many as you wish
-myimages[1]="http://3.bp.blogspot.com/-vNwZchGmy1c/Tc8CnIS6kRI/AAAAAAAABtE/-lLlqA4ADC0/s400/mojito.jpg"
-myimages[2]="http://3.bp.blogspot.com/_hr3acwTEpOo/SpASONzEkpI/AAAAAAAACbw/w4DAzL3wE2c/s400/75_Celcius_drinks_5.jpg"
-myimages[3]="http://www.womansday.com/cm/womansday/images/1m/5-Guilt-Free-Summer-Cocktails-mdn.jpg"
+drinks[0]="http://iprefercake.files.wordpress.com/2012/08/20120805-095030.jpg"
+drinks[1]="http://3.bp.blogspot.com/-vNwZchGmy1c/Tc8CnIS6kRI/AAAAAAAABtE/-lLlqA4ADC0/s400/mojito.jpg"
+drinks[2]="http://3.bp.blogspot.com/_hr3acwTEpOo/SpASONzEkpI/AAAAAAAACbw/w4DAzL3wE2c/s400/75_Celcius_drinks_5.jpg"
+drinks[3]="http://www.womansday.com/cm/womansday/images/1m/5-Guilt-Free-Summer-Cocktails-mdn.jpg"
+drinks[4]="http://www.esquire.com/cm/esquire/images/VV/brandy-julep-lg.jpg"
+drinks[5]="http://media-cache-ec0.pinimg.com/736x/7e/d1/24/7ed124de487a6baf64148ba02de218c5.jpg"
+drinks[6]="http://houstonweddingblog.com/wp-content/uploads/2009/12/Mojito1.jpg"
 
-
-var ry=Math.floor(Math.random()*myimages.length)
-if (ry==0)
-ry=1
-document.write('<img src="'+myimages[ry]+'" border=0>')
+var ry=Math.floor(Math.random()*drinks.length)
+document.write('<img src="'+drinks[ry]+'" border=0>')
 }
 random_imglink()
 //-->
