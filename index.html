@@ -1,7 +1,7 @@
 
 <head>
 <title>Refreshing Drinks - Mary Burford - 2014</title>
-<meta http-equiv="refresh" content="0.2">
+<meta http-equiv="refresh" content="0.3">
 </head>
 <br>
 <br>
@@ -14,7 +14,6 @@
 
 function random_imglink(){
 var drinks=new Array()
-//specify random images below. You can have as many as you wish
 drinks[0]="http://iprefercake.files.wordpress.com/2012/08/20120805-095030.jpg"
 drinks[1]="http://3.bp.blogspot.com/-vNwZchGmy1c/Tc8CnIS6kRI/AAAAAAAABtE/-lLlqA4ADC0/s400/mojito.jpg"
 drinks[2]="http://3.bp.blogspot.com/_hr3acwTEpOo/SpASONzEkpI/AAAAAAAACbw/w4DAzL3wE2c/s400/75_Celcius_drinks_5.jpg"
@@ -22,9 +21,11 @@ drinks[3]="http://www.womansday.com/cm/womansday/images/1m/5-Guilt-Free-Summer-C
 drinks[4]="http://www.esquire.com/cm/esquire/images/VV/brandy-julep-lg.jpg"
 drinks[5]="http://media-cache-ec0.pinimg.com/736x/7e/d1/24/7ed124de487a6baf64148ba02de218c5.jpg"
 drinks[6]="http://houstonweddingblog.com/wp-content/uploads/2009/12/Mojito1.jpg"
+drinks[7]="http://www.cosmopolitan.com/cm/cosmopolitan/images/XI/Honeydew-Margarita-medium-new.jpg"
+drinks[8]="http://www.corporateessentials.com.au/shopper/img/271340_04.gif"
 
 var ry=Math.floor(Math.random()*drinks.length)
-document.write('<img src="'+drinks[ry]+'" border=0>')
+document.write('<a href="http://www.maryburford.com"><img src="'+drinks[ry]+'" border=0></a>')
 }
 random_imglink()
 //-->
