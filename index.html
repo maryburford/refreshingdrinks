@@ -1,11 +1,29 @@
 
-<!doctype html>
-<html>
-	<head>
+<head>
+<title>Refreshing Drinks - Mary Burford - 2014</title>
+<meta http-equiv="refresh" content="0.2">
+</head>
+<br>
+<br>
+<br>
 
-	</head> 
-	<body>
-<img src='http://dumpfm.s3.amazonaws.com/images/20130818/1376857589772-dumpfm-bendover-Screen-Shot-2013-08-18-at-4.21.36-PM.png'> 
+<center>
+<script language="JavaScript">
 
-	</body>
-</html>
+function random_imglink(){
+var myimages=new Array()
+//specify random images below. You can have as many as you wish
+myimages[1]="http://3.bp.blogspot.com/-vNwZchGmy1c/Tc8CnIS6kRI/AAAAAAAABtE/-lLlqA4ADC0/s400/mojito.jpg"
+myimages[2]="http://3.bp.blogspot.com/_hr3acwTEpOo/SpASONzEkpI/AAAAAAAACbw/w4DAzL3wE2c/s400/75_Celcius_drinks_5.jpg"
+myimages[3]="http://www.womansday.com/cm/womansday/images/1m/5-Guilt-Free-Summer-Cocktails-mdn.jpg"
+
+
+var ry=Math.floor(Math.random()*myimages.length)
+if (ry==0)
+ry=1
+document.write('<img src="'+myimages[ry]+'" border=0>')
+}
+random_imglink()
+//-->
+</script>
+</center>
